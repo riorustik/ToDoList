@@ -12,7 +12,7 @@
     box-shadow: var(--box-shadow);
 }
 
-todo-title {
+.todo-title {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
@@ -29,12 +29,12 @@ todo-title {
     width: 100%;
 }
 
-.todo-input {
+.todo-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 16px;
-    font-width: 600;
+    font-weight: 600;
 }
 
 .todo-del-all-button {
