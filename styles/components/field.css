@@ -7,14 +7,16 @@
         color: var(--color-black);
     }
 }
-.field-label{
+
+.field-label {
     position: absolute;
     top: 50%;
     left: 17px;
     color: var(--color-gray-3);
     translate: 0 -50%;
 }
-.field-input{
+
+.field-input {
     --fieldInputPaddingX: 16px;
     --fieldSearchInputIconSize: 16px;
 
@@ -28,12 +30,14 @@
     &:hover, &:focus {
         color: var(--color-dark-2);
     }
-    &:focus{
+
+    &:focus {
         background-color: var(--color-gray-1);
         outline: none;
     }
-    &[type='search']{
-        &:placeholder-shown{
+
+    &[type='search'] {
+        &:placeholder-shown {
             padding-right: calc(var(--fieldInputPaddingX) * 2 + var(--fieldSearchInputIconSize));
             background-image: url("../../icons/icon-search.svg");
             background-position: calc(100% - var(--fieldInputPaddingX)) 50%;
@@ -43,17 +47,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
